@@ -1,0 +1,10 @@
+body.webpage-eraser,
+body.webpage-eraser * {
+  cursor: crosshair !important;
+}
+
+body.webpage-eraser *:hover {
+  -moz-box-shadow:    inset 0 0 10px #f00 !important;
+  -webkit-box-shadow: inset 0 0 10px #f00 !important;
+  box-shadow:         inset 0 0 10px #f00 !important;
+}
