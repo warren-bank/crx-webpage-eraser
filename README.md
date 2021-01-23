@@ -12,10 +12,16 @@ Chrome extension to erase selected visible elements from the current webpage.
 * when on:
   - all _:hover_ DOM elements get a red border
   - the _:hover_ DOM element nested most deeply is removed with a click
+  - _hotkey_ combinations:
+    * _Escape_
+      - turns extension off
+    * _Control + z_
+      - undo most recent erasure
+    * _Control + y_
+      - redo most recently undone erasure
 
 #### Limitations:
 
-* doesn't support undo (_Ctrl-z_) or redo (_Ctrl-y_)
 * DOM elements that already have a click handler will receive the event before the extension
 
 #### Credits:
