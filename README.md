@@ -20,10 +20,6 @@ Chrome extension to erase selected visible elements from the current webpage.
     * _Control + y_
       - redo most recently undone erasure
 
-#### Limitations:
-
-* DOM elements that already have a click handler will receive the event before the extension
-
 #### Credits:
 
 * this project is inspired by the extension: _Vanishing Wand_ v1.1.0 by [Elliot Plant](https://github.com/elliotaplant)
